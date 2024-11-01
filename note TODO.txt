@@ -1,0 +1,21 @@
+
+- soft constraint affinché il rapporto di partite di una certa classe rispetto al totale di partite istanziate rispetto si annulli rispetto al rapporto..
+	- non è facile si dovrebbe gestire il fatto che solo le partite istanziate rispecchiano il rapporto della popolazione di 	giocatori
+	- sarebbe necessaria una variabile che indichi una se la partita è istanziata o meno
+
+
+- descrivere l'algoritmo di ricerca utilizzato da google or tool (simulated annealing ecc)
+- completare/correggere la parte sui criteri di ottimalita (.1)
+	
+	- per ogni penalità avviare la ricerca e descrivere l'utilità dei constraint 
+	  soprattutto nei casi di medio carico e sovraccarico.
+		- nel medio carico descrivere come le risorse vengono utilizzate in modo efficiente massimizzando le risorse
+		  per le richieste di partecipazione successive
+		- nel caso di sovraccarico sottolineare quali giocatori sono stati selezionati per la composizione 
+		  delle partite
+- codificare la funzione obiettivo (.5)
+	
+	codificare riempimento partite per classi di giocatori (per dichiarare costanti model.NewConstant(5))
+
+
+- nelle note conclusive spiegare che quest soluzione potrebbe essere impiegata in ogni problema che implica l'occupazione di risorse, gestendo dei criteri e delle penalità che rispecchiano la popolazione dell'utenza partecipante
