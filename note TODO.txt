@@ -1,3 +1,6 @@
+IMPORTANTE PER NON FARE ANDARE IN OVER CONSTRAINT IL PROBLEMA GESTIRE I DUE CASI SEPARATAMENTE (CASO SOVRACCARICO - CASO SOTTOCARICO)
+ridefinire per ognuno dei problemi, variabili e funzione obiettivo
+
 
 - soft constraint affinché il rapporto di partite di una certa classe rispetto al totale di partite istanziate rispetto si annulli rispetto al rapporto..
 	- non è facile si dovrebbe gestire il fatto che solo le partite istanziate rispecchiano il rapporto della popolazione di 	giocatori
@@ -19,3 +22,8 @@
 
 
 - nelle note conclusive spiegare che quest soluzione potrebbe essere impiegata in ogni problema che implica l'occupazione di risorse, gestendo dei criteri e delle penalità che rispecchiano la popolazione dell'utenza partecipante
+
+
+
+minimizzare il numero di partite sotto la soglia minima
+
